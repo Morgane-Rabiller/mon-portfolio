@@ -27,7 +27,21 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-} 
+}
+
+#little_main {
+    display:none;
+    flex-direction: column;
+    position: absolute;
+    bottom: 55px;
+    left: 0;
+}
+
+.category2 {
+    padding: 5px 25px;
+    border: solid rgb(255, 255, 255, 30%) 3px;
+    background: rgb(0,0,0, 70%);
+}
 
 /* BODY */
 
@@ -88,23 +102,9 @@ footer {
     /* align-items: center; */
 }
 
-#bottom > div {
+#bottom > a {
     border-right: solid rgb(255, 255, 255, 10%) 3px;
-    padding-top: 11px;
-}
-
-.vignette {
-    margin: 12px;
-}
-
-/* Permet de mettre les deux vignettes à grandeur égales*/
-#vignette_google {
-    padding: 0 12px;
-}
-
-/* Me permet de faire en sorte que mes liens ne dépassent pas de ma page */
-.footer {
-    bottom: 0;
+    padding: 12px;
 }
 
 /* PAGE DESCRIPTION */
@@ -113,7 +113,8 @@ footer {
     /* background-color: rgb(255, 255, 255, 45%); */
     /* background-color:rgb(125, 125, 125, 70%); */
     /* background-color: rgb(50, 50, 50, 80%); */
-    background-color: rgb(80, 80, 80, 70%);
+    background-color: rgb(80, 80, 80, 85%);
+    border: 10px solid white;
     width: 50%;
     border-radius: 15%;
     /* color: rgb(0, 0, 94, 100%); */
